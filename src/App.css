@@ -1,0 +1,63 @@
+.cuboid {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 10000px;
+  animation: rotateCuboid 6s infinite linear;
+}
+
+@keyframes rotateCuboid {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  20% {
+    transform: rotateX(0deg) rotateY(90deg);
+  }
+  40% {
+    transform: rotateX(0deg) rotateY(180deg);
+  }
+  60% {
+    transform: rotateX(0deg) rotateY(270deg);
+  }
+  80% {
+    transform: rotateX(90deg) rotateY(270deg);
+  }
+  100% {
+    transform: rotateX(0deg) rotateY(360deg);
+  }
+}
+
+.face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: url('../src/assets/xzect-logo-space.svg');
+  background-size: cover;
+  opacity: 0.8;
+  border: 5px solid white;
+}
+
+.front {
+  transform: translateZ(100px);
+}
+
+.back {
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+
+.left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.right {
+  transform: rotateY(90deg) translateZ(100px);
+}

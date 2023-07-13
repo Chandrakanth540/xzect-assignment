@@ -1,0 +1,147 @@
+.techskills-wrap {
+  margin-right: 0;
+  right: 0;
+  padding-bottom: 70px;
+  background-color: #f5f5f5;
+  /* background-color: #ffffff4a; */
+}
+.objective-wrap {
+  padding: 50px 10px;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  /* padding: 2px 20px; */
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.objective-1 {
+  color: black;
+  font-size: 45px;
+  font-weight: 600;
+}
+.objective-2 {
+  text-align: center;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.6;
+  padding: 0 14rem;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+}
+@media screen and (max-width: 767px) {
+  .objective-2 {
+    padding: 0 1rem;
+    line-height: 2rem;
+  }
+}
+
+.all-languages-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0px 20px;
+  left: 0;
+  /* margin-right: 0; */
+}
+.card-name {
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.single-card {
+  background-color: #ffffff4a;
+  /* box-sizing: border-box; */
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 60px;
+  box-shadow: 2px 14px 20px 6px rgba(224, 230, 235, 0.58);
+  border-radius: 3px;
+  width: 80px;
+  transition: all 0.4s ease;
+}
+.single-card:hover {
+  box-shadow: 0px 0px 60px #d0d0d0;
+  background-color: white;
+}
+
+.card-img {
+  width: 2rem;
+}
+.techbtn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.techbtn {
+  background-color: white;
+  padding: 17px 25px;
+  border: 1px solid #ff5f08;
+  color: #ff5f08;
+  font-size: 16.5px;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+.techbtn:hover {
+  background: #ff5f08;
+  color: white;
+}
+
+.cosultation-wrap {
+  position: relative;
+  /* padding-bottom: 20px; */
+  height: 100%;
+  background-image: url('../src/assets/ttten.svg');
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, red, blue, green) 1;
+}
+.cosultation-wrap::before {
+  /* opacity: 0.4; */
+  color: white;
+  width: 98%;
+  /* padding-bottom: 200px; */
+  /* z-index: 999; */
+  background-size: cover;
+  /* position: absolute; */
+  padding-bottom: 100px;
+}
+.consultation-texts-div {
+  color: whitesmoke;
+  /* z-index: 999; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.consultation-text-1 {
+  font-size: 55px;
+  margin-top: 100px;
+  font-weight: 600;
+}
+.consultation-text-2 {
+  font-weight: 600;
+  font-size: 50px;
+  /* padding: 10px 100px; */
+  margin-top: 100px;
+  text-align: center;
+  background-image: linear-gradient(100deg, #fb2576, #5e76fd 50%, #6df1af 110%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.book-div {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.book-btn {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  background: linear-gradient(to right, #fb2576, #5e76fd);
+}
