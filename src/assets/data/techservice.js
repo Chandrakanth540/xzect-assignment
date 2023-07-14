@@ -12,8 +12,8 @@ export const Services = [
     image: '../src/assets/tech/cloud-services.jpg',
   },
   {
-    techName: 'Software & App Development',
-    image: '../src/assets/tech/robotics.jpg',
+    techName: 'Robotics and Automation',
+    image: '../src/assets/robotics.jpg',
   },
   {
     techName: 'Software & App Development',
