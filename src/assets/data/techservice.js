@@ -4,43 +4,43 @@ export const Services = [
     image: '../src/assets/tech/software-and-app-dev.jpg',
   },
   {
-    techName: 'Software & App Development',
+    techName: 'Website Development & SEO',
     image: '../src/assets/tech/website-dev-and-seo.jpg',
   },
   {
-    techName: 'Software & App Development',
+    techName: 'Cloud Service',
     image: '../src/assets/tech/cloud-services.jpg',
   },
   {
     techName: 'Robotics and Automation',
-    image: '../src/assets/robotics.jpg',
+    image: '../src/assets/tech/robotics.jpg',
   },
   {
-    techName: 'Software & App Development',
+    techName: '#D Printing and Prototyping',
     image: '../src/assets/tech/3d-printing-and-prototyping.jpg',
   },
   {
-    techName: 'Software & App Development',
+    techName: 'Data Science & Analytics',
     image: '../src/assets/tech/data-science.jpg',
   },
   {
-    techName: 'Software & App Development',
+    techName: 'Al & Machine Learning',
     image: '../src/assets/tech/machine-learning.jpg',
   },
   {
-    techName: 'Software & App Development',
+    techName: 'IOT,AR & VR',
     image: '../src/assets/tech/ar-vr.jpg',
   },
   {
-    techName: 'Software & App Development',
+    techName: 'Blockchain',
     image: '../src/assets/tech/blockchain.jpg',
   },
   {
-    techName: 'Software & App Development',
+    techName: 'Tech Consultancy',
     image: '../src/assets/tech/tech-consultancy.jpg',
   },
   {
-    techName: 'Software & App Development',
+    techName: 'Research & Development',
     image: '../src/assets/tech/research-and-dev.jpg',
   },
 ];
