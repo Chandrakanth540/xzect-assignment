@@ -59,6 +59,7 @@
   align-items: flex-start;
   gap: 25px;
   background-color: #242836;
+  /* width: 200px; */
 }
 .single-tech-wrap:hover {
   background-color: #272c3e;

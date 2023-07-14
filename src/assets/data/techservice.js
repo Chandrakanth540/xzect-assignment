@@ -1,162 +1,162 @@
 export const Services = [
   {
     techName: 'Software & App Development',
-    image: '../src/assets/tech/software-and-app-dev.jpg',
+    image: 'src/assets/tech/software-and-app-dev.jpg',
   },
   {
     techName: 'Website Development & SEO',
-    image: '../src/assets/tech/website-dev-and-seo.jpg',
+    image: 'src/assets/tech/website-dev-and-seo.jpg',
   },
   {
     techName: 'Cloud Service',
-    image: '../src/assets/tech/cloud-services.jpg',
+    image: 'src/assets/tech/cloud-services.jpg',
   },
   {
     techName: 'Robotics and Automation',
-    image: '../src/assets/tech/robotics.jpg',
+    image: 'src/assets/tech/robotics.jpg',
   },
   {
     techName: '#D Printing and Prototyping',
-    image: '../src/assets/tech/3d-printing-and-prototyping.jpg',
+    image: 'src/assets/tech/3d-printing-and-prototyping.jpg',
   },
   {
     techName: 'Data Science & Analytics',
-    image: '../src/assets/tech/data-science.jpg',
+    image: 'src/assets/tech/data-science.jpg',
   },
   {
     techName: 'Al & Machine Learning',
-    image: '../src/assets/tech/machine-learning.jpg',
+    image: 'src/assets/tech/machine-learning.jpg',
   },
   {
     techName: 'IOT,AR & VR',
-    image: '../src/assets/tech/ar-vr.jpg',
+    image: 'src/assets/tech/ar-vr.jpg',
   },
   {
     techName: 'Blockchain',
-    image: '../src/assets/tech/blockchain.jpg',
+    image: 'src/assets/tech/blockchain.jpg',
   },
   {
     techName: 'Tech Consultancy',
-    image: '../src/assets/tech/tech-consultancy.jpg',
+    image: 'src/assets/tech/tech-consultancy.jpg',
   },
   {
     techName: 'Research & Development',
-    image: '../src/assets/tech/research-and-dev.jpg',
+    image: 'src/assets/tech/research-and-dev.jpg',
   },
 ];
 
 export const ProgrammingSkills = [
   {
     languageName: 'C++',
-    Image: '../src/assets/languages/cpp.png',
+    Image: 'src/assets/languages/cpp.png',
   },
   {
     languageName: 'Python',
-    Image: '../src/assets/languages/python.png',
+    Image: '/src/assets/languages/python.png',
   },
   {
     languageName: 'Golang',
-    Image: '../src/assets/languages/golang.png',
+    Image: '/src/assets/languages/golang.png',
   },
   {
     languageName: 'Rust',
-    Image: '../src/assets/languages/rust.png',
+    Image: '/src/assets/languages/rust.png',
   },
   {
     languageName: 'Nodejs',
-    Image: '../src/assets/languages/nodejs.png',
+    Image: 'src/assets/languages/nodejs.png',
   },
   {
     languageName: 'Reactjs',
-    Image: '../src/assets/languages/react.png',
+    Image: 'src/assets/languages/react.png',
   },
   {
     languageName: 'Angular',
-    Image: '../src/assets/languages/angular.png',
+    Image: 'src/assets/languages/angular.png',
   },
   {
     languageName: 'Vuejs',
-    Image: '../src/assets/languages/vuejs.png',
+    Image: 'src/assets/languages/vuejs.png',
   },
   {
     languageName: 'Android',
-    Image: '../src/assets/languages/android.png',
+    Image: 'src/assets/languages/android.png',
   },
   {
     languageName: 'Swift',
-    Image: '../src/assets/languages/swift.png',
+    Image: 'src/assets/languages/swift.png',
   },
   {
     languageName: 'Wordpress',
-    Image: '../src/assets/languages/wordpress.png',
+    Image: 'src/assets/languages/wordpress.png',
   },
   {
     languageName: 'Magento',
-    Image: '../src/assets/languages/magento.png',
+    Image: 'src/assets/languages/magento.png',
   },
   {
     languageName: 'Laravel',
-    Image: '../src/assets/languages/laravel.png',
+    Image: 'src/assets/languages/laravel.png',
   },
   {
     languageName: 'Codeigniter',
-    Image: '../src/assets/languages/codeigniter.png',
+    Image: 'src/assets/languages/codeigniter.png',
   },
   {
     languageName: 'Django',
-    Image: '../src/assets/languages/codeigniter.png',
+    Image: 'src/assets/languages/codeigniter.png',
   },
   {
     languageName: 'Solidity',
-    Image: '../src/assets/languages/solidity.png',
+    Image: 'src/assets/languages/solidity.png',
   },
   {
     languageName: 'Flutter',
-    Image: '../src/assets/languages/flutter.png',
+    Image: 'src/assets/languages/flutter.png',
   },
   {
     languageName: 'Mysql',
-    Image: '../src/assets/languages/mysql.png',
+    Image: 'src/assets/languages/mysql.png',
   },
   {
     languageName: 'MongoDB',
-    Image: '../src/assets/languages/mongodb.png',
+    Image: 'src/assets/languages/mongodb.png',
   },
   {
     languageName: 'GraphQL',
-    Image: '../src/assets/languages/graphql.png',
+    Image: 'src/assets/languages/graphql.png',
   },
   {
     languageName: 'Docker',
-    Image: '../src/assets/languages/docker.png',
+    Image: 'src/assets/languages/docker.png',
   },
   {
     languageName: 'NginX',
-    Image: '../src/assets/languages/nginx.png',
+    Image: 'src/assets/languages/nginx.png',
   },
   {
     languageName: 'Ubuntu',
-    Image: '../src/assets/languages/ubuntu.png',
+    Image: 'src/assets/languages/ubuntu.png',
   },
   {
     languageName: 'Tensorflow',
-    Image: '../src/assets/languages/tensorflow.png',
+    Image: 'src/assets/languages/tensorflow.png',
   },
   {
     languageName: 'Keras',
-    Image: '../src/assets/languages/keras.png',
+    Image: 'src/assets/languages/keras.png',
   },
   {
     languageName: 'OpenCV',
-    Image: '../src/assets/languages/opencv.png',
+    Image: 'src/assets/languages/opencv.png',
   },
   {
     languageName: 'Arduino',
-    Image: '../src/assets/languages/arduino.png',
+    Image: 'src/assets/languages/arduino.png',
   },
   {
     languageName: 'ROS',
-    Image: '../src/assets/languages/ros.png',
+    Image: 'src/assets/languages/ros.png',
   },
 ];
 
