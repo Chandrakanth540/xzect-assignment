@@ -74,6 +74,16 @@ body {
     /* padding: 100px; */
     margin-left: 10px !important;
   }
+  .btns-wrap {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .whatsapp-btn {
+    width: 100% !important;
+  }
+  .explore-btn {
+    width: 100% !important;
+  }
 }
 
 .header-down-black-starting {
@@ -113,8 +123,8 @@ body {
 }
 .whatsapp-btn {
   background-color: #075e54;
-  height: 50px;
-  width: 250px;
+  height: 60px;
+  width: 50%;
   border: 2px solid #075e54;
   display: flex;
   align-items: center;
@@ -132,11 +142,11 @@ body {
 }
 
 .explore-btn {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   background-color: transparent;
-  height: 50px;
-  width: 250px;
+  height: 60px;
+  width: 50%;
   border: 2px solid blue;
   color: white;
 }
@@ -149,4 +159,5 @@ body {
   flex-direction: row;
   gap: 60px;
   padding: 100px 20px;
+  /* justify-content: space-between; */
 }

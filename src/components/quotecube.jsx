@@ -28,8 +28,9 @@ const QuoteCube = () => {
               alt=""
               style={{ height: '30px', width: '30px' }}
             />
-            Chat on Whatsapp
+            Chat now on Whatsapp
           </button>
+
           <button className="explore-btn">Explore our services</button>
         </div>
       </div>
